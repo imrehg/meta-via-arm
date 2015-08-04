@@ -1,8 +1,17 @@
 This README file contains information on the contents of the
-vab820-bsp layer.
+meta-via-arm layer.
 
 Please see the corresponding sections below for details.
 
+Supported Machines
+==================
+
+At the moment the following VIA boards and systems are supported:
+
+* VAB-820 Quad
+
+This layer aims to support all VIA ARM devices on the long term,
+and will add devices over time.
 
 Dependencies
 ============
@@ -72,7 +81,7 @@ other layers needed. e.g.:
     ${BSPDIR}/sources/meta-fsl-arm \
     ${BSPDIR}/sources/meta-fsl-arm-extra \
     ${BSPDIR}/sources/meta-fsl-demos \
-    ${BSPDIR}/sources/meta-vab820-bsp \
+    ${BSPDIR}/sources/meta-via-arm \
   "
 
 
