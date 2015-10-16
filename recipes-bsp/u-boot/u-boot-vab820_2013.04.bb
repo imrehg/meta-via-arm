@@ -10,11 +10,10 @@ PROVIDES += "u-boot"
 
 PV = "2013.04"
 
-SRCREV = "f438a80573fccb97a53e2445c7eb9e30169fa9a0"
-SRCBRANCH = "via_3.10.17_2.0.1"
+SRCREV = "4ddf7448ff54261c4730a8b3f06a31f20f8370f6"
+SRCBRANCH = "via_3.10.17_2.0.6"
 
 SRC_URI = "git://github.com/viaembedded/vab820-uboot-bsp.git;protocol=http;branch=${SRCBRANCH} \
-	   file://u-boot-default-to-boot-from-the-SD-card.patch;md5=9958e93ec0cd0f3ec92d6673fdcf68c6 \
 "
 S = "${WORKDIR}/git"
 
