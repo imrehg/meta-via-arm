@@ -11,8 +11,8 @@ require recipes-kernel/linux/linux-dtb.inc
 DEPENDS += "lzop-native bc-native"
 
 SRCBRANCH = "via_3.10.17_2.0.6"
-LOCALVERSION = "-2.0.1"
-SRCREV = "936138b99b26218558765e23b38db20a8c22c0fc"
+LOCALVERSION = "-2.0.6"
+SRCREV = "201723eb5e6e6a274b999dbcef2bcaee7ebd4244"
 
 SRC_URI = "git://github.com/viaembedded/vab820-kernel-bsp.git;protocol=http;branch=${SRCBRANCH} \
 	   file://defconfig;md5=9d967720c563f4b6ed06f2d4dc94db44 \
