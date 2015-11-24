@@ -10,8 +10,8 @@ PROVIDES += "u-boot"
 
 PV = "2013.04"
 
-SRCREV = "4ddf7448ff54261c4730a8b3f06a31f20f8370f6"
-SRCBRANCH = "via_3.10.17_2.0.6"
+SRCREV = "438c2ffb37f095dd4eab503a42438ba49071dc65"
+SRCBRANCH = "via_3.10.17_2.0.7"
 
 SRC_URI = "git://github.com/viaembedded/vab820-uboot-bsp.git;protocol=http;branch=${SRCBRANCH} \
 "
